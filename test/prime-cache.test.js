@@ -1,6 +1,6 @@
 const primeCache = require('../lib/prime-cache')
-const prime = 1011
-const nonPrime = 1012
+const prime = 1013
+const nonPrime = 1014
 
 test('Prime cache is an object', () => {
   expect(typeof primeCache).toEqual('object')
@@ -14,8 +14,8 @@ test('Prime cache allows to get a prime number', () => {
   expect(typeof primeCache.set).toEqual('function')
 })
 
-test('Getting a prime that was not set should return false', () => {
-  expect(primeCache.get(prime)).toEqual(false)
+test('Getting a prime that was not set should return undefined', () => {
+  expect(primeCache.get(prime)).toEqual(undefined)
 })
 
 test('Setting a prime and getting a prime should return true', () => {
