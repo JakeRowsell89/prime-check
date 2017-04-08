@@ -1,14 +1,14 @@
 {
   "name": "prime-check",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a number is a prime number or not",
   "main": "index.js",
   "scripts": {
-    "dev": "chokidar '**' -c 'standard && jest'"
+    "dev": "chokidar '**.js' -c 'standard && jest'"
   },
   "author": "Jake Rowsell-Messchaert",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "chokidar-cli": "^1.2.0",
     "jest": "^19.0.2",
     "standard": "^10.0.1"
