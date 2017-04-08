@@ -31,3 +31,7 @@ test('Non-whole numbers aren\'t primes', () => {
 test('Non-whole numbers aren\'t primes', () => {
   expect(isPrime(7.2)).toBe(false)
 })
+
+test('Accepts prime number as string and returns true', () => {
+  expect(isPrime('2')).toBe(true)
+})
