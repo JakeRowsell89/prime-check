@@ -23,4 +23,4 @@ To work on this further you can watch-files and run tests after changes are made
 
 ## Acknowledgments
 
-* Readme structure taken from 
+* Readme structure taken from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md
