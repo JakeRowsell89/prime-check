@@ -1,6 +1,6 @@
 {
   "name": "prime-check",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Check if a number is a prime number or not",
   "main": "index.js",
   "scripts": {
