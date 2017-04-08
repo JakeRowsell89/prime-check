@@ -2,6 +2,13 @@
 
 Small and efficient NPM package for checking if a number is prime. Existing packages seemed to not cache or in the case they did would build up the primes via the Sieve of Erathosthenes. This package will tell you if a number is prime, but not allow discovery of next/previous primes. The first 1000 are hard-coded as I am under the impression those will be the most frequently looked for.
 
+## Usage
+```
+const isPrime = require('prime-check')
+isPrime(1) // false
+isPrime(3) // true
+```
+
 ## Getting Started
 
 To run this module install it into your project by running:
