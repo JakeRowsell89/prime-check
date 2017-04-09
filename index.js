@@ -1,3 +1,3 @@
-const isPrime = require('./lib/is-prime')
+const { isPrime } = require('./lib/is-prime')
 
 module.exports = isPrime
